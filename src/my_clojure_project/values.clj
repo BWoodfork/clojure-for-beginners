@@ -65,7 +65,6 @@ nil
 1/2
 3/5
 
-
 ; Arithmetic
 (+ 1 2 3)   ;Addition
 (- 1 2 3)   ;Subtraction
@@ -75,10 +74,8 @@ nil
 (max 1 2 3) ;Get the maximum value
 (min 1 2 3) ;Get the minimum value
 
-; Assignment - def
-; def is one of many ways to assign names to values
-(def front-end-developers 4)
-(def back-end-developers 1)
-
-; we can evaluate assigned values like so:
-(+ front-end-developers back-end-developers)
+; Variable Assignment - Let
+(defn add-two-numbers []
+  (let [first-number 5
+        second-number 10]
+    (+ first-number second-number)))
