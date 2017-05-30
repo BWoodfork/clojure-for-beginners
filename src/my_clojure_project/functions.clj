@@ -1,6 +1,6 @@
 (ns my-clojure-project.functions)
 
-; What this video will cover:
+; What this episode will cover:
 ;  * What are functions?
 ;  * How to call functions
 ;  * How to define our own functions

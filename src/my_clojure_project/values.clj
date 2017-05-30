@@ -1,6 +1,6 @@
 (ns my-clojure-project.values)
 
-; What this video will cover:
+; What this episode will cover:
 ; Explaining the basic values that we use in Clojure
 ; * Strings
 ; * Booleans
