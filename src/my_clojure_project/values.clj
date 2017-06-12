@@ -52,7 +52,7 @@ nil
 ; (Clojure has several different number types)
 ; * Integers
 
- 0 ; Include zero
+0 ; Include zero
  1 ; Include positive numbers
 -1 ; Include negative numbers
 
