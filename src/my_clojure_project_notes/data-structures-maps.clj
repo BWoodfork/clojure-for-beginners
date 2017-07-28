@@ -1,4 +1,4 @@
-(ns my-clojure-project.data-structures-maps)
+(ns my-clojure-project-notes.data-structures-maps)
 
 ; * Maps - Another form of collections
 ; ----------------------------------------------------------------------

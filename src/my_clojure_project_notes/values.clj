@@ -1,4 +1,4 @@
-(ns my-clojure-project.values)
+(ns my-clojure-project-notes.values)
 
 ; What this episode will cover:
 ; Explaining the basic values that we use in Clojure
@@ -52,7 +52,7 @@ nil
 ; (Clojure has several different number types)
 ; * Integers
 
-0 ; Include zero
+ 0 ; Include zero
  1 ; Include positive numbers
 -1 ; Include negative numbers
 
@@ -66,16 +66,20 @@ nil
 3/5
 
 ; Arithmetic
-(+ 1 2 3)   ;Addition
-(- 1 2 3)   ;Subtraction
-(* 1 3)     ;Multiplication
-(/ 100 50)  ;Division
-(inc 1)     ;incrementing
-(max 1 2 3) ;Get the maximum value
-(min 1 2 3) ;Get the minimum value
+(+ 1 2 3)   ; Addition
+(- 1 2 3)   ; Subtraction
+(* 1 3)     ; Multiplication
+(/ 100 50)  ; Division
 
-; Variable Assignment - Let
-(defn add-two-numbers []
-  (let [first-number 5
-        second-number 10]
-    (+ first-number second-number)))
+(inc 1)     ; Incrementing a number
+(max 1 2 3) ; Get the maximum value
+(min 1 2 3) ; Get the minimum value
+
+; Variable Assignment: "let"
+(let [Harry "Harry "
+      Potter "Potter"]
+      (str Harry Potter))
+
+(let [salary 80000
+      bonus 5000]
+      (+ salary bonus))

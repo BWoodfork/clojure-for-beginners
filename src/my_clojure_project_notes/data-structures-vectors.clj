@@ -1,4 +1,4 @@
-(ns my-clojure-project.data-structures-vectors)
+(ns my-clojure-project-notes.data-structures-vectors)
 
 ; What this episode will cover:
 ;  * The main data structures in Clojure:

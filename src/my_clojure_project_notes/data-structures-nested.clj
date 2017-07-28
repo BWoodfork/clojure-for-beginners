@@ -1,4 +1,4 @@
-(ns my-clojure-project.data-structures-nested)
+(ns my-clojure-project-notes.data-structures-nested)
 
 ; What this episode will cover:
 ; * Nested data structures
