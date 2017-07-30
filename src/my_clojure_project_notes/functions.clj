@@ -11,7 +11,7 @@
 ; What are functions?
 ; - Code that executes one or mulitple actions
 
-; How to call functions
+; How to call (or execute) functions
 ; Wrap the function name & its parameters in parenthesis
 (println "Yo dawg, I heard you like functions")
 

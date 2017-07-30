@@ -76,6 +76,7 @@ nil
 (min 1 2 3) ; Get the minimum value
 
 ; Variable Assignment: "let"
+; Also known as a "let binding"
 (let [Harry "Harry "
       Potter "Potter"]
       (str Harry Potter))
