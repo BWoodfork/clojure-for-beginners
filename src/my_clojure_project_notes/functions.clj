@@ -33,12 +33,14 @@
 (defn add-one-plus-one []
   "I am a function that returns the sum of 1 + 1"
   (+ 1 1))
-  (add-one-plus-one)
+
+(add-one-plus-one)
 
 ; Functions can take arguments
 (defn add-two-numbers-with-args [num1 num2]
   (+ num1 num2))
-  (add-two-numbers-with-args 200 300)
+
+(add-two-numbers-with-args 200 300)
 
 ; Functions can take optional arguments
 (defn add-numbers [& args]

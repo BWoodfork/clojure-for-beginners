@@ -1,9 +1,10 @@
 (ns my-clojure-project-notes.data-structures-vectors)
 
 ; What this episode will cover:
-;  * The main data structures in Clojure:
+;  * Data structures in Clojure:
 ;   - Vectors
 ;   - Maps
+;   - Sets
 ;  * The basics of how they can be used
 
 ; ----------------------------------------------------------------------

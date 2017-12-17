@@ -31,6 +31,7 @@
 true
 false
 
+; Some functions can return boolean values
 (= 1 1)
 (= 2 1)
 
@@ -65,7 +66,7 @@ nil
 1/2
 3/5
 
-; Arithmetic
+; Basic Arithmetic
 (+ 1 2 3)   ; Addition
 (- 1 2 3)   ; Subtraction
 (* 1 3)     ; Multiplication
@@ -77,10 +78,17 @@ nil
 
 ; Variable Assignment: "let"
 ; Also known as a "let binding"
-(let [Harry "Harry "
-      Potter "Potter"]
-      (str Harry Potter))
 
+; let bindings can be assigned to represent numbers
 (let [salary 80000
       bonus 5000]
       (+ salary bonus))
+
+; they can also be assigned to represent strings
+(let [movie-title "Harry Potter & The Sorcerer's Stone"]
+      movie-title)
+
+; And other values as well...
+(let [vector-of-numbers [0 1 2 3]
+      map-of-values {:a 1 :b 2}
+      some-keyword :i-am-a-keyword])
